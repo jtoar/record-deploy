@@ -1,5 +1,9 @@
 import { createGraphQLHandler } from '@redwoodjs/graphql-server'
 
+import camelcase from 'camelcase'
+
+console.log(typeof camelcase)
+
 import directives from 'src/directives/**/*.{js,ts}'
 import sdls from 'src/graphql/**/*.sdl.{js,ts}'
 import services from 'src/services/**/*.{js,ts}'
