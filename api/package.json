@@ -5,6 +5,7 @@
   "dependencies": {
     "@redwoodjs/api": "1.1.1",
     "@redwoodjs/graphql-server": "1.1.1",
-    "@redwoodjs/record": "^1.1.1"
+    "@redwoodjs/record": "^1.1.1",
+    "camelcase": "^6.3.0"
   }
 }
